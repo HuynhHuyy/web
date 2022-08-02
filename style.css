@@ -1,0 +1,83 @@
+    body {
+        background-color: #75BDE0;
+        background-image: linear-gradient(to bottom right, #75BDE0, #A9D09E);
+        font-family: "Roboto", sans-serif;
+    }
+    #box {
+        background-color: #F6E2BC;
+        box-sizing: border-box;
+        box-shadow: 0 15px 25px rgba(0, 0, 0, .6);
+        border-radius: 10px;
+        padding: 10px;
+    }
+    
+    button {
+        text-transform: uppercase;
+        outline: 0;
+        width: 100%;
+        -webkit-transition: all 0.3 ease;
+        transition: all 0.3 ease;
+    }
+    
+    .errorMessage {
+        color: rgb(185, 0, 0);
+        font-size: 14px;
+    }
+    
+    footer {
+        background: #3B7097;
+        padding: 25px;
+        font-size: 18px;
+        text-align: center;
+        display: block;
+        margin-top: 30px;
+    }
+    
+    .row img {
+        margin-bottom: 10px;
+        border-radius: 10px;
+        height: 128px;
+        width: 128px;
+    }
+    
+    .navbar {
+        background: #3B7097;
+    }
+    
+    #rows:hover {
+        background-color: #ffce74;
+    }
+    
+    h1 {
+        text-align: center;
+        text-shadow: 2px 2px 5px#75BDE0;
+    }
+
+    label{
+        font-weight: bold;
+    }
+    img {
+        height: 200px;
+        width: 200px;
+    }
+    .department_id{
+        display:none;
+    }
+    #box_history{
+        background-color: #F6E2BC;
+        box-sizing: border-box;
+        border-radius: 10px;
+        padding-top: 20px;
+        font-weight: bold
+    }
+
+    .form_id{
+        display: none;
+    }
+    #hide_id_sender{
+        display: none;
+    }
+    #design_form{
+        margin-top: 60px;
+        margin-bottom: 100px;
+    }
